@@ -1,0 +1,105 @@
+body#pageAbout {
+  background-image: linear-gradient(
+    to right,
+    $color-purple-fade,
+    $color-green-fade,
+    $color-yellow-fade,
+    $color-yellow-fade,
+    $color-green-fade
+  );
+  .content {
+    img {
+      float: left;
+      width: 15%;
+      margin-right: 10px;
+      cursor: pointer;
+      @include mobile {
+        width: 35%;
+      }
+    }
+  }
+  #accordion {
+    margin-bottom: 20px;
+    .card {
+      margin-bottom: 10px;
+      border: none;
+      .card-header {
+        border: 1px solid #000;
+        background-image: linear-gradient(
+          to right,
+          $color-purple-fade,
+          $color-green-fade,
+          $color-yellow-fade,
+          $color-yellow-fade,
+          $color-green-fade
+        );
+        h5 {
+          width: 100%;
+          .btn {
+            width: 100%;
+            font-size: 1em;
+            color: $color-purple;
+            transition: transform 1s;
+            &:hover {
+              text-decoration: none;
+              transform: scale(1.02, 1.02);
+            }
+            &:focus {
+              text-decoration: none;
+              box-shadow: none;
+            }
+            @include mobile {
+              font-size: 0.85em;
+            }
+          }
+        }
+      }
+      .card-body {
+        background-image: linear-gradient(
+          to right,
+          $color-purple-fade,
+          $color-green-fade,
+          $color-yellow-fade,
+          $color-yellow-fade,
+          $color-green-fade
+        );
+      }
+    }
+  }
+  #black_div {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.904);
+    position: fixed;
+    z-index: 150;
+    top: 0;
+
+    left: 0;
+
+    .close_bigImg {
+      z-index: 200;
+      font-size: 22px;
+      color: white;
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      cursor: pointer;
+      transition: all 1.3s;
+      &:hover {
+        transform: scale(1.1, 1.1);
+        color: #777;
+      }
+    }
+
+    img {
+      height: 70%;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto auto;
+    }
+  }
+}

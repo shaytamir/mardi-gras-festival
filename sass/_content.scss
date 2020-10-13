@@ -1,0 +1,215 @@
+#pageContent {
+  background-image: linear-gradient(
+    to right,
+    $color-purple-fade,
+    $color-green-fade,
+    $color-yellow-fade,
+    $color-yellow-fade,
+    $color-green-fade
+  );
+  #contact_form {
+    h5 {
+      margin: 0 auto;
+      margin-bottom: 5px;
+    }
+    label {
+      position: fixed;
+      left: -10000px;
+    }
+    input,
+    textarea {
+      border-style: solid;
+      border-width: 2px;
+      background-color: #fdf8e5;
+      background-color: $color-white;
+    }
+    .submit_reset_div {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      input {
+        width: 100px;
+        height: 50px;
+      }
+      #contact_submit {
+        width: 100%;
+        transition: all 0.8s ease-in-out;
+        font-weight: 600;
+        font-size: 1.2em;
+        &:hover {
+          background-color: $color-green;
+          color: white;
+        }
+      }
+      #form_reset {
+        border-right: none;
+        transition: all 0.8s ease-in-out;
+        &:hover {
+          background-color: rgba(255, 0, 0, 0.644);
+          color: white;
+        }
+      }
+    }
+  }
+
+  #popupwrper {
+    z-index: 250;
+    border: 1px solid #000;
+    background-color: rgba(70, 70, 70, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    .popup {
+      text-align: center;
+      width: 100%;
+      // max-width: 500px;
+      margin: 20% auto;
+      padding: 20px;
+      background-color: $color-white;
+      background-image: linear-gradient(
+        to right,
+        $color-purple-fade,
+        $color-green-fade,
+        // $color-yellow-fade,
+        $color-yellow-fade,
+        $color-green-fade
+      );
+      position: relative;
+
+      .popupClose {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+  @include bigScreen {
+    #contact_form {
+      width: 80%;
+      margin: 0 auto;
+      .div_inputs {
+        display: flex;
+        justify-content: space-between;
+        .div_input {
+          width: 32%;
+        }
+      }
+      textarea {
+        height: 150px;
+        margin: 0 auto;
+      }
+    }
+    .popup {
+      max-width: 800px;
+      .popupContent {
+        #pop_p {
+          font-size: 1.4em;
+        }
+        #pop_h2 {
+          font-size: 2.2em;
+          color: $color-purple;
+        }
+      }
+    }
+  }
+  @include desktop {
+    #contact_form {
+      width: 80%;
+      margin: 0 auto;
+      .div_inputs {
+        display: flex;
+        justify-content: space-between;
+        .div_input {
+          width: 32%;
+        }
+      }
+      textarea {
+        height: 150px;
+        margin: 0 auto;
+      }
+    }
+    .popup {
+      max-width: 700px;
+      .popupContent {
+        #pop_p {
+          font-size: 1.2em;
+        }
+        #pop_h2 {
+          font-size: 2em;
+          color: $color-purple;
+        }
+      }
+    }
+  }
+  @include tablet {
+    #contact_form {
+      margin: 0 auto;
+      width: 60%;
+      .div_inputs {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+      }
+
+      textarea {
+        height: 150px;
+        margin: 0 auto;
+      }
+    }
+    .popup {
+      max-width: 500px;
+      .popupContent {
+        #pop_p {
+          font-size: 1.2em;
+        }
+        #pop_h2 {
+          font-size: 1.8em;
+          color: $color-purple;
+        }
+      }
+    }
+  }
+  @include mobile {
+    #contact_form {
+      width: 100%;
+      .div_inputs {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+      }
+
+      textarea {
+        height: 120px;
+        margin: 0 auto;
+      }
+    }
+    .popup {
+      max-width: 500px;
+      .popupContent {
+        #pop_p {
+          font-size: 1.2em;
+        }
+        #pop_h2 {
+          font-size: 1.8em;
+          color: $color-purple;
+        }
+      }
+    }
+    .popup {
+      max-width: 450px;
+      .popupContent {
+        #pop_p {
+          font-size: 1em;
+        }
+        #pop_h2 {
+          font-size: 1.6em;
+          color: $color-purple;
+        }
+      }
+    }
+  }
+}

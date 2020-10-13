@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+
+    <link rel="shortcut icon" href="img/logo.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <title>MARDI GRAS</title>
+  </head>
+
+  <body id="pageHome">
+    <!-- header - Navbar -->
+    <header class="container-fluid">
+      <a class="navbar-brand" href="index.html"
+        ><img class="img_logo" src="./img/logo.png" alt="logo"
+      /></a>
+      <div class="nav_and_search">
+        <form id="search_form" class="my-2 my-lg-0">
+          <div>
+            <button
+              id="search_btn"
+              class="btn btn-outline-success my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+            <input
+              id="search_input"
+              class="form-control mr-sm-2"
+              type="search"
+              aria-label="Search"
+            />
+          </div>
+        </form>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            id="nav_btn"
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="home_li nav-item active">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="about_li nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="media_li nav-item">
+                <a class="nav-link" href="media.html">MEDIA</a>
+              </li>
+              <li class="faq_li nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="contact_li nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+              <li class="trivia_li nav-item">
+                <a class="nav-link" href="trivia.html">TRIVIA</a>
+              </li>
+              <li
+                id="sponsers_li"
+                class="sponsers_li drop_li nav-item dropdown"
+              >
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  SPONSERS
+                </a>
+                <div
+                  id="sponsers_div"
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdown"
+                ></div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header - Navbar -END** -->
+
+    <!-- img slide show -->
+    <div id="caruesel1" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#caruesel1" data-slide-to="0" class="active"></li>
+        <li data-target="#caruesel1" data-slide-to="1"></li>
+        <li data-target="#caruesel1" data-slide-to="2"></li>
+        <li data-target="#caruesel1" data-slide-to="3"></li>
+        <li data-target="#caruesel1" data-slide-to="4"></li>
+        <li data-target="#caruesel1" data-slide-to="5"></li>
+        <li data-target="#caruesel1" data-slide-to="6"></li>
+        <li data-target="#caruesel1" data-slide-to="7"></li>
+        <li data-target="#caruesel1" data-slide-to="8"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/img/main_slider/5.jpg"
+            class="d-block w-100"
+            alt="Mardi gras costumes"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>
+              <span>Welcome to Mardi Gras 2021</span>
+            </h2>
+            <p>
+              <span>on Tuesday, February 16, 2021</span>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/img/main_slider/3.jpg"
+            class="d-block w-100"
+            alt="Mardi gras costumes"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to Mardi Gras 2021</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/img/main_slider/8.jpg"
+            class="d-block w-100"
+            alt="Mardi gras costumes"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to Mardi Gras 2021</h2>
+            <p>Starts on Tuesday, February 16, 2020</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/img/main_slider/6.jpg"
+            class="d-block w-100"
+            alt="Mardi gras costumes"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to Mardi Gras 2021</h2>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/img/main_slider/2.jpg"
+            class="d-block w-100"
+            alt="Mardi gras costumes"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to Mardi Gras 2021</h2>
+            <p>Starts on Tuesday, February 16, 2020</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/img/main_slider/9.jpg"
+            class="d-block w-100"
+            alt="Mardi gras costumes"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to Mardi Gras 2021</h2>
+            <p></p>
+          </div>
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/img/main_slider/1.jpg"
+            class="d-block w-100"
+            alt="Mardi gras costumes"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to Mardi Gras 2021</h2>
+            <p>Starts on Tuesday, February 16, 2020</p>
+          </div>
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#caruesel1"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#caruesel1"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <div id="days_countDown">
+        <h5>Days to Mardi gras:</h5>
+        <div class="flex">
+          <div class="time_box">
+            <div id="days"></div>
+            <h6>Days</h6>
+          </div>
+          <div class="time_box">
+            <div id="hours"></div>
+            <h6>Hours</h6>
+          </div>
+          <div class="time_box">
+            <div id="mins"></div>
+            <h6>Mins</h6>
+          </div>
+          <div class="time_box">
+            <div id="secs"></div>
+            <h6>Secs</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- img slide show -END** -->
+    <!-- info container  -->
+    <div id="main_container" class="container home_info">
+      <!-- colored h2 ech word span -->
+      <h2 class="main_h2">
+        <span class="spangreen"
+          >M<span class="spanyellow">a</span
+          ><span class="spanpurple">r</span>d<span class="spanyellow">i</span>
+          <span class="spanpurple"> g</span
+          ><span class="spanyellow">r</span>a<span class="spanpurple">s</span> -
+          <span class="spanyellow">N</span>e<span class="spanpurple">w</span>
+          O<span class="spanyellow">r</span
+          ><span class="spanpurple">l</span>e<span class="spanyellow">a</span
+          ><span class="spanpurple">n</span>s</span
+        >
+      </h2>
+
+      <section class="home_text">
+        Mardi Gras is about music, parades, picnics, floats and excitement. It's
+        one big holiday in New Orleans!
+        <br />
+        <br />
+        Revelers know to wear costumes or at least dress in purple, green, and
+        gold, and adorn themselves with long beads caught from the floats of
+        previous parades. You'll see a lot of crazy costumes, kids with their
+        families are everywhere, and both locals and visitors having a great
+        time. Parade goers will sit on the ground, throw balls, play music, eat
+        great food and watch the crowds walk by between parades. On Mardi Gras
+        day, the majority of non-essential businesses are shut down because of
+        the celebration.
+        <br />
+        <br />
+        Experienced revelers know to bring a large bag with them so they can
+        haul away all the beads and trinkets they will catch from the parades!
+
+        <br />
+        <br />
+        Every year, we get a lot of questions about how it all begin, and how
+        the traditions have changed. Click on the buttons below to find out the
+        answers to some of the most frequently asked questions.
+        <br />
+        <br />
+        <div class="iframe_box">
+          <iframe
+            src="https://www.youtube.com/embed/EkIZwXbSh-Y"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div class="mayer_div">
+          <div class="flex_div">
+            <div class="mayer_img">
+              <img
+                src="img/img/mayer.jpg"
+                width="200px"
+                alt="new orleans mayer"
+              />
+            </div>
+            <div class="float">
+              <p>
+                As Mayor of the great City of New Orleans, I invite you to visit
+                our city to experience the excitement of Mardi Gras!
+              </p>
+              <p>
+                mayor-photo The Carnival season officially begins each year on
+                Jan. 6 -- the Feast of the Epiphany, also called Twelfth Night
+                or Kings’ Day. Traditional balls are held in the weeks leading
+                up to the big event.
+              </p>
+
+              <p>
+                Spectacular parades with colorful, creative floats start rolling
+                before Mardi Gras Day. Our private Carnival clubs, called
+                krewes, take on royalty status and throw beads, doubloons and
+                toys to parade goers. Visitors quickly learn to say, "Throw me
+                something mister!"
+              </p>
+            </div>
+          </div>
+
+          <div style="clear: both">
+            <p>
+              The culmination of Mardi Gras in New Orleans begins early on Mardi
+              Gras Day when the Zulu Social Aid & Pleasure Club and the Rex
+              Organization parade through the city. Music, food and elaborate
+              costumes add to the fun-filled day of excitement for revelers of
+              all ages.
+            </p>
+            <p>
+              New Orleans, with its unmatched culture and world-famous music and
+              cuisine, is an exciting place to be at any time of the year. We
+              invite everyone to experience Mardi Gras at least once in their
+              lifetime. Make your plans now to be a part of this great tradition
+              and see firsthand why we say, "Laissez les bon temps rouler!"
+            </p>
+            <br />
+            <div class="meyor_fin">
+              <p>Sincerely,</p>
+              <p>LaToya Cantrell</p>
+              <p>Mayor of New Orleans</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="black_div" id="black_div_mini"></div>
+    </div>
+    <!-- info container end -->
+
+    <footer class="footer">
+      <hr />
+      <div class="icons">
+        <div>
+          <a href="https://www.facebook.com/MardiGrasNewOrleans" target="_blank"
+            ><img src="img/img/icons/facebook.png" alt="facebook icon"
+          /></a>
+        </div>
+        <div>
+          <a href="https://twitter.com/MardiGrasNOLA" target="_blank"
+            ><img src="img/img/icons/tweeter.png" alt="tweeter icon"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="https://www.instagram.com/mardigrasneworleans/"
+            target="_blank"
+            ><img src="img/img/icons/instegram.png" alt="instegram icon"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q"
+            target="_blank"
+            ><img src="img/img/icons/youtube.png" alt="youTube icon"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="https://www.tripadvisor.com/Profile/MardiGrasNOLA?fid=2020d9ed-60a8-4f77-a01f-b230785fe981"
+            target="_blank"
+            ><img
+              src="img/img/icons/tripAdvisor.png"
+              alt="trip Advisor icon"
+          /></a>
+        </div>
+      </div>
+      <div class="copyRights">
+        © 2020-2021 Created by Shay Tamir. All rights reserved
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="./modules/homeModule.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link rel="shortcut icon" href="img/logo.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>FAQ</title>
+  </head>
+
+  <body id="pageFAQ">
+    <!-- header - Navbar -->
+    <header class="container-fluid">
+      <a class="navbar-brand" href="index.html"
+        ><img class="img_logo" src="img/logo.png" alt="logo"
+      /></a>
+      <div class="nav_and_search">
+        <form id="search_form" class="my-2 my-lg-0">
+          <div>
+            <button
+              id="search_btn"
+              class="btn btn-outline-success my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+            <input
+              id="search_input"
+              class="form-control mr-sm-2"
+              type="search"
+              aria-label="Search"
+            />
+          </div>
+        </form>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button
+            id="nav_btn"
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="home_li nav-item">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="about_li nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="media_li nav-item">
+                <a class="nav-link" href="media.html">MEDIA</a>
+              </li>
+              <li class="faq_li nav-item active">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="contact_li nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+              <li class="trivia_li nav-item">
+                <a class="nav-link" href="trivia.html">TRIVIA</a>
+              </li>
+              <li class="sponsers_li drop_li nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  SPONSERS
+                </a>
+                <div
+                  id="sponsers_div"
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdown"
+                ></div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header - Navbar -END** -->
+    <!-- main container -->
+    <div id="main_container" class="container">
+      <h2 class="main_h2">
+        <span class="spangreen"
+          >F<span class="spanyellow">A</span
+          ><span class="spanpurple">Q</span></span
+        >
+      </h2>
+
+      <!-- colapse info -->
+      <!-- collapse About -->
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Is there an "official" Mardi Gras?
+              </button>
+            </h5>
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse"
+            aria-labelledby="headingOne"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              No! Mardi Gras is a holiday, just like Christmas and Easter. It
+              belongs to everyone. Do not believe the claims of businesses who
+              offer "official" Mardi Gras merchandise or an "official" Mardi
+              Gras website. Using the term “official” is just a way for vendors
+              to sell their products or services to those who do not know
+              better. Products or websites are not licensed by the government
+              for Mardi Gras. Each individual parade krewe is responsible for
+              all of its merchandise. In some parts of the country, official
+              organizations control their Mardi Gras celebration, but this is
+              not true in New Orleans.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                When doas Mardi gras start and end?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              The Carnival season always begins on Jan. 6, which is King’s Day
+              (Feast of the Epiphany). Mardi Gras day (Fat Tuesday), however, is
+              on a different day each year. Fat Tuesday changes every year
+              because Easter Sunday is never on the same Sunday each year. Fat
+              Tuesday is always the day before Ash Wednesday. Most visitors plan
+              to arrive no later than the Saturday prior to Mardi Gras day and
+              stay through Ash Wednesday. Check out our dates page to see when
+              Fat Tuesday will fall through the next few years
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                What is the weather usually like during Mardi Gras? What should
+                I pack?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              The weather during Mardi gras can vary from very cold to very
+              warm, almost hot. Sometimes it will change from one extreme to the
+              other during the same day. It’s a good idea to layer your clothes
+              since a chilly morning may turn into a warm afternoon. Since you
+              will be spending long days outside, pack comfortable shoes and
+              clothes that can get somewhat dirty. Don’t forget to check the
+              forecast for rain. If storms are predicted, then you’ll definitely
+              want to bring a raincoat!
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingfour">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapsefour"
+                aria-expanded="false"
+                aria-controls="collapsefour"
+              >
+                How much does it cost to go to Mardi gras?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapsefour"
+            class="collapse"
+            aria-labelledby="headingfour"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              It's free! Not only that, but you'll leave with bags of Mardi Gras
+              beads and throws. That's why we call it the "Greatest Free Show on
+              Earth!
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingfifth">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapsefifth"
+                aria-expanded="false"
+                aria-controls="collapsefifth"
+              >
+                I only have limited time. What is the prime time to visit during
+                Mardi gras?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapsefifth"
+            class="collapse"
+            aria-labelledby="headingfifth"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              The weekend before Fat Tuesday is the prime time to visit New
+              Orleans for Mardi Gras. This is the weekend when Bacchus and
+              Endymion, two of the biggest parades of the season, roll down the
+              streets of New Orleans. The streets are packed all day Saturday
+              and Sunday with parade watchers. If you can stay longer than a
+              weekend, Monday (Lundi Gras) and Fat Tuesday are also great days
+              to experience Mardi Gras. Orpheus, another big parade, rolls on
+              that Monday night, and the Zulu Lundi Gras festival goes on all
+              day. On Fat Tuesday, walking around the French Quarter and seeing
+              all of the costumes and masks is a unique and thrilling experience
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingsixth">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapsesixth"
+                aria-expanded="false"
+                aria-controls="collapsesixth"
+              >
+                What happens if there is bad weather?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapsesixth"
+            class="collapse"
+            aria-labelledby="headingsixth"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              The parades roll in light rain. The officials will only postpone
+              if the weather is predicted to be severe. The local TV and radio
+              news stations (such as WWL Radio) broadcast the hour by hour
+              updates
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingseventh">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapseseventh"
+                aria-expanded="false"
+                aria-controls="collapseseventh"
+              >
+                Can I bring my kids to Mardi gras?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseseventh"
+            class="collapse"
+            aria-labelledby="headingseventh"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              By all means, yes! Contrary to public perception, Mardi Gras is a
+              family celebration. Those of us who grew up in New Orleans feel
+              guilty once our children have grown up and we continue going to
+              every parade, because we used to use "taking the children" as our
+              excuse! Bring big bags (even large garbage bags!) to hold all of
+              the stuff they will catch. Throws often include toys, stuffed
+              animals, beads and more. The only place you should avoid with kids
+              is the French Quarter (where no full-size parades pass anyway). We
+              recommend seeing the parades when they begin on St. Charles Avenue
+              near Napoleon, since parades can last until 11 p.m. near the end
+              of the route. The Garden District portion of St. Charles is a
+              family area where you will see many families staking out their
+              parade watching position, having picnics, playing ball, and having
+              fun under the beautiful oak trees. You don't have to worry about
+              the streetcars, as they stop running in this area during Mardi
+              Gras. You may also want to consider taking your kids to the
+              parades in the suburban areas like Metairie, which is only 10
+              minutes away from New Orleans. Metairie's Caesar parade, the
+              Saturday before Mardi Gras weekend, is the parade Disneyworld
+              features on Mardi Gras day. Kids love it!
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingeighth">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapseeighth"
+                aria-expanded="false"
+                aria-controls="collapseeighth"
+              >
+                When and where do the Mardi gras Indians parade?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseeighth"
+            class="collapse"
+            aria-labelledby="headingeighth"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              The Mardi Gras Indians only parade on Mardi Gras day and on Super
+              Sunday (generally the Sunday closest to St. Joseph’s Day in
+              March). The Mardi Gras day routes are not published anywhere, but
+              they happen in and around their inner city neighborhoods. Some
+              sources say that you will see the Creole Wild West tribe at the
+              corner of LaSalle and 2nd Streets sometime between 9 a.m. and 11
+              a.m. after the Krewe of Zulu passes by. Other tribes meet at the
+              corner of Claiborne and Orleans following the Zulu parade. The New
+              Orleans Mardi Gras Indian Council always has their Indian Sunday
+              on the third Sunday of March, around St. Joseph's Day. Their
+              festivities begin at Noon in A. L. Davis Park (at Washington &
+              LaSalle Streets) where the Mardi Gras Indians once again dress in
+              their feathers and suits, and take to the streets to meet other
+              "gangs." For the Indian Sunday parade route, visit our Super
+              Sunday page. Also, the Tambourine and Fan organizations
+              traditionally hold thier "Super Sunday" parade on the Sunday
+              closest to St. Joseph's Day, with the event beginning at Bayou St.
+              John. In recent years, there has been yet a third Super Sunday
+              called Big Sunday that falls in April during the open weekend
+              between French Quarter Festival and Jazz Fest. No specific details
+              are available on these events at this time.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingninth">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapseninth"
+                aria-expanded="false"
+                aria-controls="collapseninth"
+              >
+                What are the best ways to get around New Orleans once I've
+                arrived?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseninth"
+            class="collapse"
+            aria-labelledby="headingninth"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              The best methods of transportation will be via taxi/ride-sharing
+              services, streetcar or rental car depending on where you're
+              staying. Driving your own car and finding parking spots will be
+              difficult.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingtenth">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapsetenth"
+                aria-expanded="false"
+                aria-controls="collapsetenth"
+              >
+                Where should I go if someone needs CPR or first aid during a
+                parade?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapsetenth"
+            class="collapse"
+            aria-labelledby="headingtenth"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Red Cross volunteers, in partnership with New Orleans first
+              responders, will be providing basic first aid in some of the most
+              populated areas along the parade routes. They are trained in CPR
+              and first aid and will assist the ill and injured at each of their
+              stations positioned along the parade routes. First aid stations
+              will be available on the following corners along St. Charles
+              Avenue during many of our larger parades the last two weeks of
+              Mardi Gras season: Canal Street | Napoleon Avenue | Washington
+              Avenue | Felicity Street | Lee Circle Additionally, first aid
+              stations will be available at Orleans Avenue and North Hennessy
+              Street, as well as North Carrolton Avenue and Bienville Street on
+              the Saturday before Mardi Gras for the Endymion parade.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingeleventh">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapseeleventh"
+                aria-expanded="false"
+                aria-controls="collapseeleventh"
+              >
+                How can I find out what this year's Mardi Gras theme will be?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseeleventh"
+            class="collapse"
+            aria-labelledby="headingeleventh"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              There is not a single official Mardi Gras theme since there is no
+              single organization in charge of Mardi Gras. Each parade krewe
+              decides on its own theme each year, which is often kept secret
+              until the parade. Their costumes, floats, some of their throws,
+              and their "official" Mardi Gras poster (if they have one) reflect
+              this theme. For example, after 9/11, patriotic themes were
+              popular. Most of the krewes are named after figures from Greek,
+              Roman, and Egyptian mythology, but some are named after the
+              neighborhood where they parade
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingtwelvth">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                data-toggle="collapse"
+                data-target="#collapsetwelvth"
+                aria-expanded="false"
+                aria-controls="collapsetwelvth"
+              >
+                How can my dance team march in a parade?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapsetwelvth"
+            class="collapse"
+            aria-labelledby="headingtwelvth"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              Most krewes book talent between August and November. If there's a
+              particular krewe you would like to march with let us know and
+              we'll connect you with the right person.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="black_div" id="black_div_mini"></div>
+    </div>
+    <!-- end container -->
+    <br />
+    <footer class="footer">
+      <div class="icons">
+        <div>
+          <a href="https://www.facebook.com/MardiGrasNewOrleans" target="_blank"
+            ><img src="img/img/icons/facebook.png" alt="facebook icon"
+          /></a>
+        </div>
+        <div>
+          <a href="https://twitter.com/MardiGrasNOLA" target="_blank"
+            ><img src="img/img/icons/tweeter.png" alt="tweeter icon"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="https://www.instagram.com/mardigrasneworleans/"
+            target="_blank"
+            ><img src="img/img/icons/instegram.png" alt="instegram icon"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q"
+            target="_blank"
+            ><img src="img/img/icons/youtube.png" alt="youTube icon"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="https://www.tripadvisor.com/Profile/MardiGrasNOLA?fid=2020d9ed-60a8-4f77-a01f-b230785fe981"
+            target="_blank"
+            ><img
+              src="img/img/icons/tripAdvisor.png"
+              alt="trip Advisor icon"
+          /></a>
+        </div>
+      </div>
+      <div class="copyRights">
+        © 2020-2021 Created by Shay Tamir. All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="./modules/faqModdule.js" type="module"></script>
+  </body>
+</html>

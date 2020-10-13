@@ -1,0 +1,90 @@
+[
+  {
+    "sname": "Sheraton New Orleans Hotel",
+    "scontent": "Thoughtful amenities abound at our hotel - from pet-friendly rooms to a modern fitness center and a rooftop pool with views over New Orleans.</br> With 105,000 square feet of space, our hotel is a premier destination for meetings, weddings or special events in the heart of downtown New Orleans.",
+    "slogo": "img/img/sponsers/sheraton/sheraton.png",
+    "simgs": [
+      "img/img/sponsers/sheraton/sheraton1.jpg",
+      "img/img/sponsers/sheraton/sheraton2.jpg",
+      "img/img/sponsers/sheraton/sheraton3.jpg"
+    ],
+    "slink": "https://www.marriott.com/hotels/travel/msyis-sheraton-new-orleans-hotel/"
+  },
+  {
+    "sname": "Walk-On's Bistreaux and Bar",
+    "scontent": "Walk-On’s is a place where over-the-top enthusiasm and culture is the daily norm. What sets us apart from others, is our authentic, mouthwatering Louisiana cuisine prepared fresh in a from-scratch kitchen. That includes seafood, traditional Cajun cuisine and burgers built for two hands. Like Louisiana, food is Walk-On’s calling card and the reason you’ll come back for more.",
+    "slogo": "img/img/sponsers/walk/walk.png",
+    "simgs": [
+      "img/img/sponsers/walk/walk1.jpg",
+      "img/img/sponsers/walk/walk2.jpg",
+      "img/img/sponsers/walk/walk3.jpg"
+    ],
+    "slink": "https://walk-ons.com/"
+  },
+  {
+    "sname": "Ace Hotel New Orleans",
+    "scontent": "Friendly rates & flexible cancellations for your next trip to The Big Easy. hi, neighbor.We’re welcoming our hometown friends and looking to sweeten the deal, too. Enjoy free daily parking, breakfast from our Southern osteria Josephine Estelle, two priority reservations at our rooftop pool and late checkout, on us.Go on, dream a little.",
+    "slogo": "img/img/sponsers/ace/ace.png",
+    "simgs": [
+      "img/img/sponsers/ace/ace1.jpg",
+      "img/img/sponsers/ace/ace2.jpg",
+      "img/img/sponsers/ace/ace3.jpg"
+    ],
+    "slink": "https://www.acehotel.com/neworleans/"
+  },
+  {
+    "sname": "The Ritz-Carlton",
+    "scontent": "The Ritz-Carlton, New Orleans invites visitors to its French Quarter retreat, set within a 1908 Beaux Arts building. Here, one can bask in the silence of the hotel’s beautiful courtyard, experience the mysticism of the city through the spa’s Voodoo Ritual or learn how to play the trumpet with in-house jazz musician Jeremy Davenport.",
+    "slogo": "img/img/sponsers/ritz/ritz.png",
+    "simgs": [
+      "img/img/sponsers/ritz/ritz1.jpg",
+      "img/img/sponsers/ritz/ritz2.jpg",
+      "img/img/sponsers/ritz/ritz3.jpg"
+    ],
+    "slink": "https://www.ritzcarlton.com/en/hotels/new-orleans"
+  },
+  {
+    "sname": "Premium Parking - P402",
+    "scontent": "Places to go. People to see. Things to do.  We know that the parking lot is not your final destination. That's why we created a simpler, modern parking system. Parking with Premium. It's easy.</br></br>No gates. No waits. ",
+    "slogo": "img/img/sponsers/park/parking.png",
+    "simgs": [
+      "img/img/sponsers/park/park1.jpg",
+      "img/img/sponsers/park/park2.jpg",
+      "img/img/sponsers/park/park3.jpg"
+    ],
+    "slink": "https://www.premiumparking.com/"
+  },
+  {
+    "sname": "Louisiana Children's Museum",
+    "scontent": "There are a bajillion paths to take through LCM. But the easiest way to plot a course is to choose the exhibits you want to see or the things you want to learn. Walk through the reeds or brush up on your reading. Learn the songs of this city or make your own music. The world is your oyster. Hey, you can learn about those too!",
+    "slogo": "img/img/sponsers/lcm/lcm.png",
+    "simgs": [
+      "img/img/sponsers/lcm/lcm1.jpg",
+      "img/img/sponsers/lcm/lcm2.jpg",
+      "img/img/sponsers/lcm/lcm3.jpg"
+    ],
+    "slink": "https://www.lcm.org/"
+  },
+  {
+    "sname": "Museum of Death",
+    "scontent": "The Museum of Death experience is a self guided tour lasting approximately 45 minutes to an hour, however those who can stomach it may stay as long as they like, as there are hundreds of items on display. To ensure that you experience the entire museum we recommend arriving no later than an hour before the posted closing time for that day.",
+    "slogo": "img/img/sponsers/mod/mod.png",
+    "simgs": [
+      "img/img/sponsers/mod/mod1.jpg",
+      "img/img/sponsers/mod/mod2.jpg",
+      "img/img/sponsers/mod/mod3.jpg"
+    ],
+    "slink": "http://www.museumofdeath.net/"
+  },
+  {
+    "sname": "Haunted Museum",
+    "scontent": "The Haunted Museum & Spirit Shop features Historic Haunted Museum Tours, Ghost Hunts, Haunted Collections, Paranormal Evidence, Psychics, Victorian Séance Parlor, Classes, Voodoo Pharmacy, Voodoo Doll Bar & Cemetery tours, Voodoo & Metaphysical Shop and Ghosts!​",
+    "slogo": "img/img/sponsers/hm/hm.png",
+    "simgs": [
+      "img/img/sponsers/hm/hm1.jpg",
+      "img/img/sponsers/hm/hm2.jpg",
+      "img/img/sponsers/hm/hm3.jpg"
+    ],
+    "slink": "https://www.bloodymarystours.com/hauntedmuseum.html"
+  }
+]

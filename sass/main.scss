@@ -1,0 +1,15 @@
+/* setups : */
+@import "mixin";
+@import "setup";
+@import "mixin";
+/* pages :  */
+@import "index";
+@import "about";
+@import "media";
+@import "faq";
+@import "content";
+@import "trivia";
+
+/* components: */
+@import "_navbarFooter";
+@import "_sharedComponents";

@@ -1,0 +1,370 @@
+#pageHome {
+  // background-color: #fdf8e5;
+  background-image: linear-gradient(
+    to right,
+    $color-purple-fade,
+    $color-green-fade,
+    $color-yellow-fade,
+    $color-yellow-fade,
+    $color-green-fade
+  );
+
+  .logo_caruesels {
+    display: flex;
+    justify-content: space-evenly;
+    .carousel1,
+    .carousel5 {
+      width: 15%;
+      position: relative;
+      img {
+        margin: auto auto;
+        width: 50%;
+        height: 70%;
+        margin-top: 50px;
+      }
+    }
+    .carousel2,
+    .carousel4 {
+      width: 20%;
+      img {
+        margin: auto auto;
+        width: 60%;
+        margin-top: 30px;
+      }
+    }
+
+    .carouselLogo {
+      width: 30%;
+      img {
+        margin: auto auto;
+        width: 80%;
+      }
+    }
+  }
+
+  #caruesel1 {
+    width: 100%;
+    position: relative;
+    #days_countDown {
+      overflow: hidden;
+      display: none;
+      background-color: $color-purple;
+      text-align: center;
+      color: $color-white;
+      font-weight: 900;
+      h5 {
+        margin-top: 5px;
+        margin-bottom: 0;
+      }
+      .flex {
+        display: flex;
+
+        .time_box {
+          div {
+            border: 1px solid #000;
+            margin: 1px;
+            background-color: white;
+            color: black;
+          }
+        }
+      }
+    }
+    .carousel-inner {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      position: relative;
+
+      .carousel-caption {
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-content: space-between;
+
+        h2 {
+          position: absolute;
+          top: 20px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          margin: 0 auto;
+          font-family: $font-pattaya;
+          font-weight: 500;
+          line-height: 1.2;
+          text-shadow: 2px 2px 4px #000000;
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: black;
+        }
+        p {
+          position: absolute;
+          bottom: 50px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          font-family: $font-pattaya;
+          font-weight: 300;
+          line-height: 1.2;
+          text-shadow: 2px 2px 4px #000000;
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: black;
+        }
+      }
+    }
+  }
+  .home_info {
+    .home_text {
+      font-weight: 600;
+      width: 70%;
+      text-align: justify;
+      margin: 0 auto;
+      .iframe_box {
+        height: auto;
+        margin: 0 auto;
+        iframe {
+          width: 100%;
+          height: 30vw;
+          margin: 0 auto;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  @include mobile {
+    .carousel-caption {
+      h2 {
+        font-size: 1.7em;
+      }
+    }
+
+    P {
+      font-size: 1em;
+    }
+
+    #days_countDown {
+      position: absolute;
+
+      left: 5px;
+      top: 5px;
+      font-weight: 500;
+      h5 {
+        font-size: 0.75em;
+      }
+      .flex {
+        .time_box {
+          width: 25px;
+          margin: 0 auto;
+
+          div {
+            font-size: 0.6em;
+          }
+          h6 {
+            font-size: 8px;
+          }
+        }
+      }
+    }
+
+    .home_info {
+      grid-template-columns: 1fr;
+      grid-template-rows: 80px 1fr;
+      grid-template-areas:
+        "title"
+        "main";
+      h2 {
+        grid-area: title;
+      }
+      .home_text {
+        font-size: 0.875em;
+        grid-area: main;
+        .flex_div {
+          display: flex;
+          flex-direction: column;
+
+          .mayer_img {
+            align-self: center;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+  @include tablet {
+    .carousel-caption {
+      h2 {
+        font-size: 2em;
+      }
+      P {
+        font-size: 1.5em;
+      }
+    }
+    #days_countDown {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      font-weight: 500;
+      h5 {
+        font-size: 1em;
+      }
+      .flex {
+        .time_box {
+          width: 40px;
+          margin: 0 auto;
+
+          div {
+            font-size: 0.9em;
+          }
+          h6 {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .home_info {
+      grid-template-columns: 1fr;
+      grid-template-rows: 80px 1fr;
+      grid-template-areas:
+        "title "
+        "main ";
+      h2 {
+        grid-area: title;
+      }
+      .home_text {
+        font-size: 1em;
+        grid-area: main;
+        .mayer_div {
+          p {
+            font-size: 0.875em;
+          }
+          .flex_div {
+            display: flex;
+            flex-direction: column;
+
+            .mayer_img {
+              align-self: center;
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include desktop {
+    .carousel-caption {
+      h2 {
+        font-size: 2.8em;
+      }
+      P {
+        font-size: 2.2em;
+      }
+    }
+    #days_countDown {
+      position: fixed;
+      left: 10px;
+      top: 165px;
+      font-weight: 700;
+      h5 {
+        font-size: 1em;
+      }
+      .flex {
+        .time_box {
+          width: 38px;
+          margin: 0 auto;
+
+          div {
+            font-size: 1em;
+          }
+          h6 {
+            font-size: 0.875em;
+          }
+        }
+      }
+    }
+    .home_info {
+      grid-template-columns: 1fr;
+      grid-template-rows: 80px 1fr;
+      grid-template-areas:
+        "title"
+        "main";
+      h2 {
+        grid-area: title;
+      }
+      .home_text {
+        font-size: 1em;
+        grid-area: main;
+        .mayer_div {
+          p {
+            font-size: 0.875em;
+          }
+          .flex_div {
+            display: flex;
+            .mayer_img {
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include bigScreen {
+    .carousel-caption {
+      h2 {
+        font-size: 3.3em;
+      }
+      P {
+        font-size: 2.5em;
+      }
+    }
+
+    #days_countDown {
+      position: fixed;
+      left: 20px;
+      top: 180px;
+
+      font-weight: 700;
+      h5 {
+        font-size: 1.2em;
+      }
+      .flex {
+        .time_box {
+          width: 43px;
+          margin: 0 auto;
+
+          div {
+            font-size: 1.3em;
+          }
+          h6 {
+            font-size: 0.9em;
+          }
+        }
+      }
+    }
+    .home_info {
+      grid-template-columns: 1fr;
+      grid-template-rows: 80px 1fr;
+      grid-template-areas:
+        "title"
+        "main";
+      h2 {
+        grid-area: title;
+      }
+
+      .home_text {
+        font-size: 1.2em;
+        grid-area: main;
+        .mayer_div {
+          p {
+            font-size: 0.875em;
+          }
+          .flex_div {
+            display: flex;
+            .mayer_img {
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

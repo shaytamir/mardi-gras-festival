@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto&display=swa");
+$color-trans: #1c00ff00;
+$color-purple: #9453a6;
+$color-purple-fade: #9453a67a;
+$color-purple-fade2: rgba(148, 83, 166, 0.226);
+$color-green: #8cbf3f;
+$color-green-fade: #8cbf3f73;
+$color-green-fade2: #8cbf3f36;
+$color-yellow: #f2cc0f;
+$color-yellow-fade: #ffd61e62;
+$color-yellow-fade2: #ffd61e38;
+$color-white: #f2f2f2;
+$color-white-fade: #f2f2f2e8;
+$color-black: #0d0d0d;
+$color-black-fade: #0d0d0d8c;
+$font-pattaya: "Pattaya", sans-serif;
+$font-henny: "Henny Penny", cursive;
+$font-roboto: "Roboto", sans-serif;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  font-family: $font-roboto;
+  @include mini {
+    #black_div_mini {
+      display: block;
+      background-color: #222;
+      z-index: 700;
+      width: 1000vw;
+      height: 1000vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      .close_bigImg {
+        display: none;
+      }
+    }
+    .img_logo {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto auto;
+      z-index: 800;
+    }
+  }
+}
+#nav_btn {
+  color: black;
+  text-decoration: none;
+
+  :hover,
+  :visited,
+  :link,
+  :active {
+    text-decoration: none;
+    color: black;
+    border: none;
+  }
+}
+a.a {
+  color: black;
+  text-decoration: none;
+
+  :hover,
+  :visited,
+  :link,
+  :active {
+    text-decoration: none;
+    color: black;
+  }
+}

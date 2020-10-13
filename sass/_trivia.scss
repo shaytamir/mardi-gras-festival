@@ -1,0 +1,185 @@
+#pageTrivie {
+  background-image: linear-gradient(
+    to right,
+    $color-purple-fade,
+    $color-green-fade,
+    $color-yellow-fade,
+    $color-yellow-fade,
+    $color-green-fade
+  );
+
+  .q {
+    border: 1px solid #000;
+    border-bottom: none;
+    padding: 50px;
+    position: relative;
+
+    .score_img {
+      position: absolute;
+      left: 15px;
+      top: 15px;
+      width: 30px;
+      height: 30px;
+      display: none;
+    }
+    h4 {
+      flex-grow: 1;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .inputs_correct_div {
+      display: flex;
+      flex-direction: column;
+      .flex {
+        display: flex;
+        flex-direction: column;
+        p {
+          margin-top: 2%;
+        }
+        .h4_div {
+          width: 100%;
+          h4 {
+            display: none;
+            font-weight: 500;
+            color: $color-green;
+            -webkit-text-stroke-width: 0.1px;
+            -webkit-text-stroke-color: black;
+            span {
+              color: $color-purple;
+            }
+          }
+        }
+      }
+      .corect_div {
+        display: none;
+        margin: auto;
+        // width: 80%;
+        border-radius: 40px;
+        background-color: #fff;
+        background-image: linear-gradient(
+          to right,
+          $color-purple-fade,
+          $color-purple-fade
+        );
+      }
+    }
+  }
+  #answers,
+  #score {
+    margin-top: 10px;
+    font-size: 1.7em;
+    font-weight: 700;
+    span {
+      color: red;
+    }
+  }
+
+  .buttons {
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    input {
+      height: 40px;
+      width: 100px;
+    }
+    #submit_input {
+      transition: all 0.8s ease-in-out;
+      overflow: hidden;
+      font-weight: 600;
+      font-size: 1.2em;
+      // color: rgb(51, 48, 48);
+      &:hover {
+        background-color: $color-green;
+        color: white;
+      }
+    }
+    #reset_input {
+      transition: all 0.8s ease-in-out;
+      &:hover {
+        background-color: rgba(255, 0, 0, 0.644);
+        color: white;
+      }
+    }
+    #sctollTop_input {
+      background-image: url("img/img/icons/up2.png");
+      background-position: center center;
+      background-size: 32px;
+      background-repeat: no-repeat;
+      transition: all 0.9s ease-in-out;
+      &:hover {
+        background-color: $color-purple;
+      }
+    }
+  }
+
+  @include bigScreen {
+    .inputs_correct_div {
+      p {
+        margin-right: 30px;
+      }
+      .corect_div {
+        padding: 50px;
+        width: 80%;
+      }
+    }
+  }
+  @include desktop {
+    .inputs_correct_div {
+      p {
+        margin-right: 30px;
+      }
+      .corect_div {
+        padding: 40px;
+        width: 80%;
+      }
+    }
+  }
+  @include tablet {
+    .inputs_correct_div {
+      .flex {
+        flex-direction: column;
+        p {
+          margin: 0;
+        }
+      }
+      .corect_div {
+        padding: 30px;
+        width: 80%;
+      }
+    }
+  }
+  @include mobile {
+    .q {
+      padding: 30px;
+      .score_img {
+        left: 5px;
+        top: 5px;
+        width: 25px;
+        height: 25px;
+      }
+      h4 {
+        font-size: 1em;
+      }
+    }
+    .inputs_correct_div {
+      .flex {
+        flex-direction: column;
+        p {
+          margin: 0;
+        }
+        .h4_div {
+          h4 {
+            font-size: 1em;
+          }
+        }
+      }
+
+      .corect_div {
+        padding: 15px;
+        width: 100%;
+      }
+    }
+  }
+}
