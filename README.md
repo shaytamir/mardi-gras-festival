@@ -2,10 +2,10 @@
 
 school mid term project:
 website for mardi gras festival/premote the festival sponsers.
-
+Js-Vanila project, 
 
 ## Features
-#### admin can Edit the sponsers 
+#### admin can Edit the sponsers (until page refresh)
 
 ![WhatsApp Image 2021-03-03 at 13 03 24](https://user-images.githubusercontent.com/24354228/109796507-e81dd900-7c20-11eb-98a6-31f7a3c13c7e.jpeg)
 
