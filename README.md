@@ -1,7 +1,9 @@
 # Mardi gres 
 
 school mid term project:
+```
 website for mardi gras festival/premote the festival sponsers.
+```
 Js-Vanila project, 
 
 ## Features
