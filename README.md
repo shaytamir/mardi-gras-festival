@@ -24,10 +24,10 @@ Js-Vanila project,
 - Es6 modules
 - HTML, SCSS 
 ## Getting Started
-
+```
 clone git and open with a live server 
 or open with github-pages
-
+```
 
 ## Authors
 
